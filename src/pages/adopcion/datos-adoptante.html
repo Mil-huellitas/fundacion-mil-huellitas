@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/adopcion/adopcion-style.css">
+    <link type="image/x-icon" href="../../assets/img/adopcion/logo.svg" rel="icon">
+    <script src="https://kit.fontawesome.com/98bd21cde9.js" crossorigin="anonymous"></script>
+    <title>Formulario de adopción | Mil huellitas</title>
+</head>
+
+<body id="adoption-formulary"> 
+    <header>
+        <nav>
+            <div class="logo-text-heder">
+                <img src="../../assets/img/adopcion/logo.png" alt="" class="logo-nav">
+                <p class="text-logo-heder">Mil <br> huellitas</p>
+            </div>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a href="../../index.html">INICIO</a></li>
+                <li><a href="../adopcion/adopcion.html">ADOPCIÓN</a></li>
+                <li><a href="../donacion/donacion_economica.html">DONACIÓN</a></li>
+                <li><a href="../blog/blog.html">BLOG</a></li>
+                <li><a href="../aliados/aliados.html">ALIADOS</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section id="adoption-banner">
+            <img src="../../assets/img/adopcion/adoption-form.svg" alt="">
+    </section>
+
+    <main id="main-adoption-form">
+        
+        <section id="adoption-form">
+
+            <h2>Formulario de adopción</h2>
+            
+            <h3>Información del adoptante</h3>
+
+            <div class="user-information">
+            <div class="form-group">
+                <label for="name">Nombres</label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div class="form-group">
+                <label for="surnames">Apellidos</label>
+                <input type="text" name="surnames" id="surnames">
+            </div>
+
+            <div class="form-group">
+                <label for="identify">Número de identificación</label>
+                <input type="number" name="identify" id="identify" minlength="6">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Número teléfonico</label>
+                <input type="number" name="phone" id="phone" min-lenght="10">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="locate">Tipo de vivienda</label>
+                <select name="home" id="home">
+                    <option value="0" selected>-Selecciona-</option>
+                    <option value="1">Propia</option>
+                    <option value="2">En arriendo</option>
+                </select>
+            </div></div>
+
+            <p>*En caso de ser arrendador, el dueño del inmueble tiene conocimiento de la posible adopción y dio autorización para llevarla a cabo?</p>
+
+            <div class="adoption-form-group">
+                <div>
+                    <label for="selection" class="label-form">Si</label>
+                    <input name="selection_primary" type="radio">
+                </div>
+                <div>
+                    <label for="selection" class="label-form">No</label>
+                    <input name="selection_primary" type="radio">
+                </div>
+            </div></div>
+
+        <div class="user-information">
+            <div class="form-group">
+                <label for="direction">Dirección</label>
+                <input type="text" name="direction" id="direction">
+            </div>
+
+            <div class="form-group">
+                <label for="city">Ciudad</label>
+                <input type="text" name="city" id="city">
+            </div>
+
+            <div class="form-group">
+                <label for="ocupation">Ocupación</label>
+                <input type="text" name="ocupation" id="ocupation">
+            </div>
+
+            <div class="form-group">
+                <label for="income">Ingresos mensuales apróximados</label>
+                <input type="number" name="income" id="income">
+            </div></div>
+
+            <article class="article-form">
+
+            <img class="dog-form" src="../../assets/img/adopcion/dog-form.svg" alt="">
+
+            <p><strong> Para tener en cuenta</strong>
+                Cuando se cambia a un animal de ambiente, en ocasiones pueden presentarse síntomas como diarrea, inapetencia, falta de energía o incluso puede presentar patologías que se encontraban imperceptibles en un entorno habitual y controlado; dichas situaciones pueden explicarse como una respuesta fisiológica al cambio de hábitat.
+            </p><br>
+
+            <p>¿Teniendo en cuenta lo anterior se encuentra usted en la capacidad emocional y económica para hacerse cargo de los gastos de atención veterinaria que conlleve la mascota? </p>
+
+            <div class="adoption-form-group">
+                <div>
+                    <label for="selection" class="label-form">Si</label>
+                    <input name="selection_primary" type="radio">
+                </div>
+                <div>
+                    <label for="selection" class="label-form">No</label>
+                    <input name="selection_primary" type="radio">
+                </div>
+            </div></div></article>
+
+            <div class="btn-enviar">
+                <i class="fa-solid fa-paper-plane"></i>
+                <a href="#modal"><button>Enviar datos</button></a>
+            </div>
+
+        </section>
+
+        <section id="modal" class="modal">
+            <div class="modalContainer">
+                
+                <h2 class="modalTitle">RECOMENDACIONES</h2>
+                <div class="container-ul">
+                <ul class="modalul">
+                    <li>El peludito puede enfermarse los primeros días en el nuevo hogar debido al cambio de ambiente, de familia y costumbres. Puede presentar inapetencia, diarrea, decaimiento. Si los síntomas persisten deben llevarlo a un veterinario certificado para que sea atendido, hacerle los exámenes y tratamiento que requiera.</li>
+                    <li>Si aún no tiene veterinario de confianza, buscar uno antes de necesitarlo en una emergencia y verificar si es veterinario certificado con tarjeta profesional y la clínica tiene los documentos en regla.</li>
+                    <li>NO exponer el peludito a parques o zonas comunes donde comparta con más animales sin antes tener sus vacunas.
+                    </li>
+                    <li>No vacunar el mismo día o misma semana de la adopción pues el cambio de ambiente puede afectar su sistema inmune y la vacuna puede enfermarlo.</li>
+                    <li>Debe permanecer libre de pulgas y garrapatas para prevenir enfermedades.
+                    </li>
+                    <li>Debe tener un esquema de vacunación anual para mantenerlo sano.
+                    </li>
+                    <li>Para realizar un esquema de vacunación anual, primero realizar un hemograma de control para saber si el peludito está en condiciones de recibir una vacuna. *Recuerde que primero se debe desparasitar días antes de las vacunas.
+                    </li>
+                    <li>El peludito debe desparasitarse cada 3 meses como recomendación.
+                    </li>
+                    <li>Si no puede seguirse encargando de su peludito por algún motivo de fuerza mayor, comunicarse con nosotros y regresarlo. Teléfonos: 999 999 9999 - 888 888 8888
+                    </li>
+                </ul></div>
+                    
+                <figure class="modalPicture">
+                    <img src="../../assets/img/adopcion/entendido-gif.gif" alt="" class="modalImg">
+                </figure>
+                <a href="#modal-two" class="modalClose">Entendido</a>
+            </div>
+        </section>
+
+
+        <section id="modal-two" class="modal">
+            <div class="modalContainer">
+                
+                <h2 class="modalTitle">¡Su solicitud fue recibida con éxito!</h2>
+                <div class="container-modal">
+                <figure class="modalPicture">
+                    <img class="check-gif" src="../../assets/img/adopcion/check.gif" alt="" class="modalImg">
+                </figure>
+                <div class="modalP">
+                    <p>¡Está más cerca de compartir con un gran amigo!</p>
+                    <p>Estaremos dando respuesta a su solicitud en un lapso de 3 días</p>
+                </div>
+            </div>
+                <a href="adopcion.html" class="modalClose">¡Super!</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="info-footer">
+            <div class="info-pte primary">
+            <div class="info">
+                <img src="../../assets/img/adopcion/footer/locate.svg" alt="">
+                <div>
+                    <p>Sede Chapinero</p>
+                    <p>Kra 12 #34-56, Rosales</p>
+                </div>
+            </div>
+            <div class="info">
+                <img src="../../assets/img/adopcion/footer/phone.svg" alt="">
+                <div>
+                    <p>(+57) 312 456 7890</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="info-pte secondary">
+            <div class="info">
+                <img src="../../assets/img/adopcion/footer/gmail.svg" alt="">
+                <div>
+                    <p>milhuellitas@correo. com</p>
+                </div>
+            </div>
+            <div class="info">
+                <img src="../../assets/img/adopcion/footer/clock.svg" alt="">
+                <div>
+                    <p>Todos los días</p> 
+                    <p> 8:00am - 7:00pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="loyal-text">
+            <p><strong>Textos legales</strong></p>
+            <p>Políticas de privacidad</p>
+            <p>Política de cookies</p>
+        </div>
+        
+        <div class="social-media">
+            <p><strong>Síguenos en redes sociales</strong></p>
+            <div>
+            <a href="#"><img src="../../assets/img/adopcion/footer/instagram.svg" alt=""></a>
+            <a href="#"><img src="../../assets/img/adopcion/footer/facebook.svg" alt=""></a>
+            <a href="#"><img src="../../assets/img/adopcion/footer/youtube.svg" alt=""></a></div>
+    </footer>
+    
+</body>
+
+</html>
